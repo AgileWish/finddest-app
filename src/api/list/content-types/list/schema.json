@@ -4,46 +4,31 @@
   "info": {
     "singularName": "list",
     "pluralName": "lists",
-    "displayName": "list"
+    "displayName": "list",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "firstname": {
+    "name": {
       "type": "string"
     },
-    "lastname": {
+    "description": {
+      "type": "text"
+    },
+    "type": {
       "type": "string"
     },
-    "phone": {
+    "category": {
       "type": "string"
     },
-    "address": {
-      "type": "string"
+    "created_dt": {
+      "type": "datetime"
     },
-    "address1": {
-      "type": "string"
-    },
-    "city": {
-      "type": "string"
-    },
-    "state": {
-      "type": "string"
-    },
-    "zip": {
-      "type": "string"
-    },
-    "picture": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "metadata": {
+      "type": "json"
     }
   }
 }
