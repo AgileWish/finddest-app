@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groups",
+  "info": {
+    "singularName": "group",
+    "pluralName": "groups",
+    "displayName": "Group"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "group_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "group_owner": {
+      "type": "string"
+    },
+    "created_dt": {
+      "type": "datetime"
+    },
+    "deactivate_dt": {
+      "type": "datetime"
+    },
+    "modified_dt": {
+      "type": "datetime"
+    }
+  }
+}

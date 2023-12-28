@@ -29,6 +29,18 @@
     },
     "metadata": {
       "type": "json"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "lists"
+    },
+    "list_items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::list-item.list-item",
+      "mappedBy": "list"
     }
   }
 }
